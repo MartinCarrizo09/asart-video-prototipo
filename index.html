@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AsArt · Video del prototipo · Grupo 1</title>
+<meta name="description" content="Video de demostración del prototipo AsArt, simulador de parrilla argentina en primera persona (Grupo 1, CDEV 5K1, UTN FRC).">
+<style>
+  :root { color-scheme: dark; --fire: #ff8a36; --ink: #f6ead8; --muted: #c9b498; --bg: #140e0a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 70% 0%, #3a1f10 0%, var(--bg) 55%); color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif; display: flex; justify-content: center; padding: 32px 16px; }
+  main { width: min(1100px, 100%); }
+  .badge { display: inline-block; font-size: 12px; letter-spacing: .2em; font-weight: 700; color: #ffb35c;
+    border: 1px solid rgba(255,179,92,.5); padding: 6px 12px; border-radius: 999px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(34px, 6vw, 56px); margin: 14px 0 6px; }
+  h1 span { color: var(--fire); }
+  p { color: var(--muted); margin: 0 0 20px; font-size: 17px; line-height: 1.5; }
+  video { width: 100%; border-radius: 14px; background: #000; box-shadow: 0 24px 60px rgba(0,0,0,.6); border: 1px solid rgba(255,170,90,.25); }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; align-items: center; }
+  a.btn { color: #1b120b; background: var(--fire); text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 10px; }
+  a.btn:hover { filter: brightness(1.08); }
+  a.btn:focus-visible { outline: 3px solid #ffd7b0; outline-offset: 2px; }
+  .meta { font-size: 14px; color: var(--muted); }
+  ol { color: var(--muted); columns: 2; column-gap: 40px; padding-left: 20px; margin-top: 26px; font-size: 15px; line-height: 1.7; }
+  @media (max-width: 640px) { ol { columns: 1; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="badge">PROTOTIPO · GRUPO 1 · CDEV 5K1 · UTN FRC</div>
+  <h1><span>🔥</span> AsArt</h1>
+  <p>Simulador de parrilla argentina en primera persona. Demostración del prototipo: así arranca, así se juega y así termina.</p>
+  <video controls preload="metadata" poster="poster.jpg" playsinline>
+    <source src="asart-prototipo.mp4" type="video/mp4">
+    Tu navegador no puede reproducir el video. <a href="asart-prototipo.mp4">Descargalo acá</a>.
+  </video>
+  <div class="row">
+    <a class="btn" href="asart-prototipo.mp4" download>⬇ Descargar video (MP4, 48 MB)</a>
+    <span class="meta">Duración 6:54 · 1280×720</span>
+  </div>
+  <ol>
+    <li>Así arranca: menú principal</li>
+    <li>El patio</li>
+    <li>El fuego</li>
+    <li>Las brasas</li>
+    <li>La carne</li>
+    <li>La cocción</li>
+    <li>Pancho, el perro</li>
+    <li>El tacho de basura</li>
+    <li>Día, noche y clima</li>
+    <li>Modo Clientes</li>
+    <li>Así termina: cierre de la jornada</li>
+  </ol>
+</main>
+</body>
+</html>
